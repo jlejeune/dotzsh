@@ -1,4 +1,5 @@
 # history file
+export HISTSIZE=1000
 export HISTORY=100000
 export SAVEHIST=100000
 export HISTFILE=$HOME/.history
