@@ -14,6 +14,7 @@ bindkey '^[[1;5D' backward-word         # CTRL + left
 bindkey '^[[1;OD' backward-word
 bindkey '^[[1;5C' forward-word          # CTRL + right
 bindkey '^[[1;OC' forward-word
+bindkey '^R' history-incremental-search-backward # CTRL + r
 
 # define home, end, insert, delete, up, down, etc...
 typeset -A key
