@@ -5,3 +5,4 @@ export EDITOR=/usr/bin/vim
 export CLICOLOR=1
 # pip should only run if there is a virtualenv currently activated
 export PIP_REQUIRE_VIRTUALENV=true
+export PATH="$HOME/bin:$HOME/dev/scripts:$HOME/dev/tools:$PATH"
